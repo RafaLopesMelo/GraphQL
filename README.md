@@ -2,7 +2,7 @@
 
 # 🔥 Introdução
 
-Esta é uma API construída com Apollo Server e GraphQL, persistindo dados no MongoDB. O intuito da aplicação foi ser minha porta de entrada nestas tecnologias, construindo um CRUD básico de usuários e postagens. Caso queira entender mais a fundo o funcionamento da API, convido-lhe a dar uma olhada na [documentação](#documentação) do projeto.
+  Esta é uma API construída com Apollo Server e GraphQL persistindo dados no MongoDB. O intuito da aplicação foi ser minha porta de entrada nestas tecnologias, construindo um CRUD básico de usuários e postagens. Caso queira entender mais a fundo o funcionamento da API, convido-lhe a dar uma olhada na [documentação](#documentação) do projeto.
 
 # 🎸 Tecnologias usadas:
 
@@ -15,6 +15,34 @@ Esta é uma API construída com Apollo Server e GraphQL, persistindo dados no Mo
 
 - MongoDB (Banco de dados open-source NoSQL)
   - Mongoose (Biblioteca para manipular um banco de dados MongoDB)
+  
+# 💾 Começando
+
+  O primeiro passo para a utilização da API em sua máquina é se certificar que possui o MongoDB e o NodeJS instalados em sua máquina. Após isto, clone o repositório e faça a instalação das dependências:
+  
+```
+ $ git clone https://github.com/RafaLopesMelo/GraphQL
+ 
+ $ npm install
+ //ou
+ $ yarn install
+```
+
+Após isto, crie um arquivo .env na raíz do projeto e coloque a URL do seu cluster MongoDB seguindo este formato:
+
+```
+DB_URL = *****
+```
+
+Por fim, abra o servidor com o comando:
+
+```
+$ npm run dev
+// ou
+$ yarn dev
+```
+
+Finalizado o processo, você poderá acessar o playground do GraphQL na URL https://localhost:4000
   
 # 💻 Conhecimento Adquirido
 
