@@ -187,65 +187,67 @@
 
 ## Inputs
 
-### PostInput
-
-<table>
-  <thead>
-    <tr>
-    <th colspan="2" align="left">Field</th>
-    <th align="left">Type</th>
-    <th align="left">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td colspan="2" valign="top"><strong>title</strong></td>
-      <td valign="top"><a href="#string">String</a>!</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td colspan="2" valign="top"><strong>content</strong></td>
-      <td valign="top"><a href="#string">String</a>!</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td colspan="2" valign="top"><strong>author</strong></td>
-      <td valign="top"><a href="#id">ID</a>!</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
-
 ### UserInput
 
 <table>
   <thead>
     <tr>
-      <th colspan="2" align="left">Field</th>
-      <th align="left">Type</th>
-      <th align="left">Description</th>
+      <th align="center">Campo</th>
+      <th align="center">Tipo</th>
+      <th align="center">Descrição</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td colspan="2" valign="top"><strong>firstName</strong></td>
-      <td valign="top"><a href="#string">String</a>!</td>
-      <td></td>
+      <td align="center"><strong>firstName</strong></td>
+      <td align="center">String!</td>
+      <td align="center">String com valor de do primeiro nome do usuário</td>
     </tr>
     <tr>
-      <td colspan="2" valign="top"><strong>lastName</strong></td>
-      <td valign="top"><a href="#string">String</a>!</td>
-      <td></td>
+      <td align="center"><strong>lastName</strong></td>
+      <td align="center">String!</td>
+      <td align="center">String com valor de do último nome do usuário</td>
     </tr>
     <tr>
-      <td colspan="2" valign="top"><strong>email</strong></td>
-      <td valign="top"><a href="#string">String</a></td>
-      <td></td>
+      <td align="center"><strong>email</strong></td>
+      <td align="center">String</td>
+      <td align="center">String com e-mail do usuário</td>
     </tr>
     <tr>
-      <td colspan="2" valign="top"><strong>active</strong></td>
-      <td valign="top"><a href="#boolean">Boolean</a>!</td>
-      <td></td>
+      <td align="center"><strong>active</strong></td>
+      <td align="center">Boolean!</td>
+      <td align="center">Boolean indicando se o usuário está ativo</td>
     </tr>
   </tbody>
 </table>
+
+### PostInput
+
+<table>
+  <thead>
+    <tr>
+    <th align="center">Campo</th>
+    <th align="center">Tipo</th>
+    <th align="center">Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>title</strong></td>
+      <td align="center">String!</td>
+      <td align="center">String com o título do post</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>content</strong></td>
+      <td align="center">String!</td>
+      <td align="center">String com o conteúdo da postagem</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>author</strong></td>
+      <td align="center">ID!</td>
+      <td align="center">String com o ID do autor do post</td>
+    </tr>
+  </tbody>
+</table>
+
+
