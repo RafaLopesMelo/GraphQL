@@ -1,7 +1,6 @@
 # Documentação
 
-<details>
-  <summary><strong>Índice</strong></summary>
+## Índice
 
   * [Query](#query)
   * [Mutation](#mutation)
@@ -12,16 +11,14 @@
     * [PostInput](#postinput)
     * [UserInput](#userinput)
 
-</details>
-
 ## Query
 <table>
   <thead>
     <tr>
-      <th align="center">Field</th>
-      <th align="center">Argument</th>
-      <th align="center">Type</th>
-      <th align="center">Description</th>
+      <th align="center">Campo</th>
+      <th align="center">Argumento</th>
+      <th align="center">Tipo</th>
+      <th align="center">Descrição</th>
     </tr>
   </thead>
   <tbody>
@@ -56,10 +53,10 @@
   <table>
   <thead>
     <tr>
-      <th align="center">Field</th>
-      <th align="center">Argument</th>
-      <th align="center">Type</th>
-      <th align="center">Description</th>
+      <th align="center">Campo</th>
+      <th align="center">Argumento</th>
+      <th align="center">Tipo</th>
+      <th align="center">Descrição</th>
     </tr>
   </thead>
   <tbody>
@@ -105,83 +102,83 @@
 
 ## Objects
 
-### Post
-
-<table>
-  <thead>
-    <tr>
-      <th align="left">Field</th>
-      <th align="right">Argument</th>
-      <th align="left">Type</th>
-      <th align="left">Description</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-      <td colspan="2" valign="top"><strong>_id</strong></td>
-      <td valign="top"><a href="#id">ID</a>!</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td colspan="2" valign="top"><strong>title</strong></td>
-      <td valign="top"><a href="#string">String</a>!</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td colspan="2" valign="top"><strong>content</strong></td>
-      <td valign="top"><a href="#string">String</a>!</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td colspan="2" valign="top"><strong>author</strong></td>
-      <td valign="top"><a href="#user">User</a>!</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
-
 ### User
 
 <table>
   <thead>
     <tr>
-      <th align="left">Field</th>
-      <th align="right">Argument</th>
-      <th align="left">Type</th>
-      <th align="left">Description</th>
+      <th align="left">Campo</th>
+      <th align="right">Argumento</th>
+      <th align="left">Tipo</th>
+      <th align="left">Descrição</th>
     </tr>
     </thead>
     <tbody>
       <tr>
-        <td colspan="2" valign="top"><strong>_id</strong></td>
-        <td valign="top"><a href="#id">ID</a>!</td>
-        <td></td>
+        <td align="center"><strong>_id</strong></td>
+        <td>ID!</td>
+        <td align="center">String contendo ID do usuário</td>
       </tr>
       <tr>
-        <td colspan="2" valign="top"><strong>firstName</strong></td>
-        <td valign="top"><a href="#string">String</a>!</td>
-        <td></td>
+        <td align="center"><strong>firstName</strong></td>
+        <td align="center">String!</td>
+        <td align="center">String contendo primeiro nome do usuário</td>
       </tr>
       <tr>
-        <td colspan="2" valign="top"><strong>lastName</strong></td>
-        <td valign="top"><a href="#string">String</a>!</td>
-        <td></td>
+        <td align="center"><strong>lastName</strong></td>
+        <td align="center">String!</td>
+        <td align="center">String contendo o último nome do usuário</td>
       </tr>
       <tr>
-        <td colspan="2" valign="top"><strong>fullName</strong></td>
-        <td valign="top"><a href="#string">String</a>!</td>
-        <td></td>
+        <td align="center"><strong>fullName</strong></td>
+        <td align="center">String!</td>
+        <td align="center">String contendo a contatenação de "first name" e "last name"</td>
       </tr>
       <tr>
-        <td colspan="2" valign="top"><strong>email</strong></td>
-        <td valign="top"><a href="#string">String</a></td>
-        <td></td>
+        <td align="center"><strong>email</strong></td>
+        <td align="center">String</td>
+        <td align="center">String contendo e-mail do usuário</td>
       </tr>
       <tr>
-        <td colspan="2" valign="top"><strong>active</strong></td>
-        <td valign="top"><a href="#boolean">Boolean</a>!</td>
-        <td></td>
+        <td align="center"><strong>active</strong></td>
+        <td align="center">Boolean!</td>
+        <td align="center">Booleano indicando se o usuário está ativo</td>
       </tr>
+  </tbody>
+</table>
+
+### Post
+
+<table>
+  <thead>
+    <tr>
+      <th align="center">Campo</th>
+      <th align="center">Argumento</th>
+      <th align="center">Tipo</th>
+      <th align="center">Descrição</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr>
+      <td align="center"><strong>_id</strong></td>
+      <td align="center"><a href="#id">ID</a>!</td>
+      <td align="center">String contento o ID do post</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>title</strong></td>
+      <td align="center"><a href="#string">String</a>!</td>
+      <td align="center">String contendo o título do post</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>content</strong></td>
+      <td align="center"><a href="#string">String</a>!</td>
+      <td align="center">String contendo o conteúdo do post</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>author</strong></td>
+      <td align="center"><a href="#user">User</a>!</td>
+      <td align="center">String contendo o usuário autor do post</td>
+    </tr>
   </tbody>
 </table>
 
