@@ -67,38 +67,38 @@
       <td align="center"><strong>createPost</strong></td>
       <td align="center"><strong>PostInput!</strong></td>
       <td align="center"><a href="#post">Post</a>!</td>
-      <td align="center"><strong>Cria um usuário no banco de dados</strong></td>
+      <td align="center"><strong>Cria um post no banco de dados</strong></td>
     </tr>
     <tr>
       <td align="center"><strong>updatePost</strong></td>
       <td align="center"><strong>ID!, PostInput!</strong></td>
       <td align="center"><a href="#post">Post</a>!</td>
-      <td align="center"><strong>Atualiza dados no banco de dados</strong></td>
+      <td align="center"><strong>Atualiza informações de um post especificado pelo ID no banco de dados</strong></td>
     </tr>
     <tr>
       <td align="center"><strong>deletePost</strong></td>
-      <td align="center"><strong>ID!, PostInput!</strong></td>
+      <td align="center"><strong>ID!</strong></td>
       <td align="center"><a href="#boolean">Boolean</a></td>
-      <td align="center"><strong>none</strong></td>
+      <td align="center"><strong>Deleta um post especificado pelo ID no banco de dados</strong></td>
     </tr>
     </tr>
     <tr>
       <td align="center"><strong>createUser</strong></td>
-      <td align="center"><strong>none</strong></td>
+      <td align="center"><strong>UserInput!</strong></td>
       <td align="center"><a href="#user">User</a>!</td>
-      <td align="center"><strong>none</strong></td>
+      <td align="center"><strong>Cria um usuário no banco de dados</strong></td>
     </tr>
     <tr>
       <td align="center"><strong>updateUser</strong></td>
-      <td align="center"><strong>none</strong></td>
+      <td align="center"><strong>ID!, UserInput!</strong></td>
       <td align="center"><a href="#user">User</a>!</td>
-      <td align="center"><strong>none</strong></td>
+      <td align="center"><strong>Atualiza informações de um usuário especificado pelo ID no banco de dados</strong></td>
     </tr>
     <tr>
       <td align="center"><strong>deleteUser</strong></td>
-      <td align="center"><strong>none</strong></td>
+      <td align="center"><strong>ID!</strong></td>
       <td align="center"><a href="#boolean">Boolean</a></td>
-      <td align="center"><strong>none</strong></td>
+      <td align="center"><strong>Deleta um usuário especificado pelo ID no banco de dados</strong></td>
     </tr>
   </tbody>
 </table>
