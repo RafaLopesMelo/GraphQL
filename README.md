@@ -1,4 +1,29 @@
-# Documentação
+![ilustração GraphQL](https://miro.medium.com/proxy/1*rxD2eVeer-CENwpg_OvqEA.png)
+
+# 🔥 Introdução
+
+Esta é uma API construída com Apollo Server e GraphQL, persistindo dados no MongoDB. O intuito da aplicação foi ser minha porta de entrada nestas tecnologias, construindo um CRUD básico de usuários e postagens. Caso queira entender mais a fundo o funcionamento da API, convido-lhe a dar uma olhada na [documentação](#documentação) do projeto.
+
+# 🎸 Tecnologias usadas:
+
+### - Linguagem: JavaScript
+
+- NodeJS (Runtime JavaScript no servidor)
+  - Apollo Server (Servidor open-source compatível com GraphQL)
+  - GraphQL (Linguagem de query para API's)
+  - GraphQL-Markdown (Biblioteca para geração de documentação de uma API GraphQL)
+
+- MongoDB (Banco de dados open-source NoSQL)
+  - Mongoose (Biblioteca para manipular um banco de dados MongoDB)
+  
+# 💻 Conhecimento Adquirido
+
+- Criação e manipulação de uma API GraphQL
+- Geração de documentação de uma API GraphQL
+- Aprendizado de utilização do Apollo Server
+- Melhor manipulação de um banco de dados MongoDB com mongoose
+
+# 📄 Documentação
 
 ## Índice
 
@@ -246,5 +271,3 @@
     </tr>
   </tbody>
 </table>
-
-
